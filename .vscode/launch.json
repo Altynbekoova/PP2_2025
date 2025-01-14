@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Open lukas.html",
+        "type": "chrome",
+        "request": "launch",
+        "file": "/Users/admin/Documents/Programming Principles/PP2_works/website/lukas.html"
+      },
+      {
+        "name": "Launch Chrome",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost:5500", // Убедитесь, что ваш сервер работает
+        "webRoot": "${workspaceFolder}"
+      }
+    ]
+  }
