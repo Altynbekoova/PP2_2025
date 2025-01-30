@@ -11,4 +11,4 @@ def permute(s, result = ""):
     return permutations
 
 s = input()
-print(permute(s))
+print(permute(s) , len(permute(s)))
