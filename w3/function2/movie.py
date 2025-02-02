@@ -91,7 +91,7 @@ def category(movies, category):
 
 def average(movies):
     if len(movies) == 0:
-        return 0  # Чтобы избежать деления на ноль
+        return 0  
     score = sum(movie["imdb"] for movie in movies)
     return score / len(movies)
 
